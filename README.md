@@ -27,7 +27,7 @@ $$
 \sim \operatorname{Multinomial}(n_{it},\boldsymbol p_{it}).
 $$
 
-The model distinguishes the underlying case-age distribution (oldsymbol p_{it}) from its noisy empirical estimate. A unit-specific population reference (oldsymbol q_i) accounts for local age structure; a common reference (oldsymbol q^*) supports standardised comparisons across exposure levels.
+The model distinguishes the underlying case-age distribution $\boldsymbol p_{it}$ from its noisy empirical estimate. A unit-specific population reference $\boldsymbol q_i$ accounts for local age structure; a common reference $\boldsymbol q^*$ supports standardised comparisons across exposure levels.
 
 Spatial effects and relevant environmental covariates are incorporated into the Bayesian model.
 
