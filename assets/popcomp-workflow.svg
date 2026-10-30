@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-label="Conceptual popcomp workflow from age-specific cases, population age structure, and environmental covariates through Bayesian modelling to posterior age distributions and distributional contrasts">
+<defs>
+  <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8FBFE"/><stop offset="1" stop-color="#EEF7F6"/></linearGradient>
+  <linearGradient id="model" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#133C55"/><stop offset="1" stop-color="#176B6B"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#164059" flood-opacity=".11"/></filter>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#527F8C"/></marker>
+</defs>
+<rect width="1200" height="690" rx="22" fill="url(#ground)"/>
+<text x="600" y="52" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#183A50" text-anchor="middle">From observed cases to distributional contrasts</text>
+<text x="600" y="77" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#637F8D" text-anchor="middle">Conceptual workflow — not empirical results</text>
+
+<g filter="url(#shadow)">
+<rect x="36" y="107" width="348" height="96" rx="15" fill="#FFFFFF" stroke="#B7D8E1"/>
+<rect x="426" y="107" width="348" height="96" rx="15" fill="#FFFFFF" stroke="#B7D8E1"/>
+<rect x="816" y="107" width="348" height="96" rx="15" fill="#FFFFFF" stroke="#B7D8E1"/>
+</g>
+<circle cx="66" cy="134" r="8" fill="#3BA7B9"/><circle cx="456" cy="134" r="8" fill="#67B5A5"/><circle cx="846" cy="134" r="8" fill="#BA9BE1"/>
+<text x="85" y="139" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#214A5F">Disease cases by age</text>
+<text x="62" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#4F6D79">Age-specific counts and case totals</text>
+<text x="62" y="187" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#758994">Observed composition is noisy</text>
+<text x="475" y="139" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#214A5F">Population age structure</text>
+<text x="452" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#4F6D79">Local and common references</text>
+<text x="452" y="187" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#758994">Separate population and case patterns</text>
+<text x="865" y="139" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#214A5F">Exposure and spatial context</text>
+<text x="842" y="168" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#4F6D79">Environmental covariates and geography</text>
+<text x="842" y="187" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#758994">Account for structured variation</text>
+<g fill="none" stroke="#527F8C" stroke-width="2.2" stroke-linecap="round">
+<path d="M210 203 V229 H600"/><path d="M600 203 V251" marker-end="url(#arrow)"/><path d="M990 203 V229 H600"/>
+</g>
+
+<rect x="273" y="263" width="654" height="88" rx="18" fill="url(#model)" filter="url(#shadow)"/>
+<text x="600" y="297" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bayesian age-composition model</text>
+<text x="600" y="326" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#D1F1EE" text-anchor="middle">Conditional count likelihood  ·  population reference  ·  spatial effects</text>
+<path d="M600 351 V387" stroke="#527F8C" stroke-width="2.2" marker-end="url(#arrow)" fill="none"/>
+
+<rect x="273" y="397" width="654" height="78" rx="15" fill="#E0F3F0" stroke="#93C9C4" stroke-width="1.5"/>
+<text x="600" y="428" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#174C58" text-anchor="middle">Posterior standardised age distributions</text>
+<text x="600" y="451" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#497580" text-anchor="middle">Compare exposure levels under a common population reference</text>
+<path d="M600 475 V502 H330 V523" stroke="#527F8C" stroke-width="2.2" marker-end="url(#arrow)" fill="none"/>
+<path d="M600 502 H870 V523" stroke="#527F8C" stroke-width="2.2" marker-end="url(#arrow)" fill="none"/>
+
+<g filter="url(#shadow)">
+<rect x="117" y="532" width="426" height="81" rx="15" fill="#FFFFFF" stroke="#B7D8E1"/>
+<rect x="657" y="532" width="426" height="81" rx="15" fill="#FFFFFF" stroke="#B7D8E1"/>
+</g>
+<text x="330" y="566" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#174C58" text-anchor="middle">Mean-age contrast</text>
+<text x="330" y="591" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#627A87" text-anchor="middle">Change in expected age</text>
+<text x="870" y="566" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#174C58" text-anchor="middle">Wasserstein distance (W₁)</text>
+<text x="870" y="591" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#627A87" text-anchor="middle">Change in the full distribution</text>
+<rect x="259" y="634" width="682" height="35" rx="17.5" fill="#DCEEEB"/>
+<text x="600" y="656" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#336C73" text-anchor="middle">Posterior uncertainty and tolerance probabilities</text>
+</svg>
