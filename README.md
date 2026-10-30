@@ -20,7 +20,7 @@ The framework models **age-specific disease rates** and uses Bayesian posterior 
 
 The workflow above is a **conceptual illustration, not an empirical result**.
 
-For area (i), time (t), and age group (k), let (C_{itk}) be the observed case count and (n_{it} = \sum_{k=1}^{K} C_{itk}) the total number of cases. Conditional on (n_{it}), the case composition is modelled through
+For area $i$, time $t$, and age group $k$, let $C_{itk}$ be the observed case count and $n_{it} = \sum_{k=1}^{K} C_{itk}$ the total number of cases. Conditional on $n_{it}$, the case composition is modelled through
 
 $$
 (C_{it1},\ldots,C_{itK})\mid n_{it}
@@ -34,7 +34,7 @@ Spatial effects and relevant environmental covariates are incorporated into the 
 ## Main inferential summaries
 
 - **Mean-age contrast:** The posterior change in expected case age under two exposure conditions.
-- **Wasserstein distance ((W_1)):** The posterior difference between the full age distributions, beyond their means.
+- **Wasserstein distance ($W_1$):** The posterior difference between the full age distributions, beyond their means.
 - **Tolerance probabilities:** Posterior probabilities that a contrast falls within a scientifically meaningful tolerance range.
 
 These are posterior functionals of modelled age distributions; they are not treated as error-free distances computed from sparse empirical counts.
