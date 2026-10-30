@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="popcomp research software banner with conceptual distribution curves">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10213A"/><stop offset="0.55" stop-color="#143750"/><stop offset="1" stop-color="#075A60"/></linearGradient>
+  <linearGradient id="curveA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8DF3D2"/><stop offset="1" stop-color="#7DD3FC"/></linearGradient>
+  <linearGradient id="curveB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F9C78A"/><stop offset="1" stop-color="#E4A6F1"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity=".07" stroke-width="1"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="13"/></filter>
+</defs>
+<rect width="1200" height="340" fill="url(#bg)"/>
+<rect width="1200" height="340" fill="url(#grid)"/>
+<circle cx="995" cy="80" r="116" fill="#51D6C0" opacity=".10" filter="url(#glow)"/>
+<circle cx="1120" cy="250" r="115" fill="#7AA9F8" opacity=".07" filter="url(#glow)"/>
+<rect x="60" y="50" width="164" height="29" rx="14.5" fill="#78E5D0" fill-opacity=".13" stroke="#85E5D5" stroke-opacity=".52"/>
+<text x="142" y="69" fill="#B9FAE8" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" text-anchor="middle">RESEARCH SOFTWARE</text>
+<text x="57" y="180" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="93" font-weight="700" letter-spacing="-4">popcomp</text>
+<text x="61" y="225" fill="#D8EAF2" font-family="Arial,Helvetica,sans-serif" font-size="24">Population-referenced age distributions</text>
+<text x="62" y="267" fill="#A3C7D3" font-family="Arial,Helvetica,sans-serif" font-size="17">Bayesian inference  ·  Environmental exposures  ·  Spatial statistics</text>
+<rect x="716" y="42" width="429" height="255" rx="21" fill="#0A2137" fill-opacity=".43" stroke="#A8DCE2" stroke-opacity=".25"/>
+<line x1="758" y1="255" x2="1112" y2="255" stroke="#C0DDE3" stroke-opacity=".50" stroke-width="1.5"/>
+<line x1="758" y1="76" x2="758" y2="255" stroke="#C0DDE3" stroke-opacity=".50" stroke-width="1.5"/>
+<g stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1"><line x1="758" y1="210" x2="1112" y2="210"/><line x1="758" y1="165" x2="1112" y2="165"/><line x1="758" y1="120" x2="1112" y2="120"/></g>
+<path d="M758 254 C795 253 813 244 832 222 C854 191 867 133 895 111 C916 95 938 133 959 178 C984 232 1014 252 1112 254" fill="none" stroke="url(#curveA)" stroke-width="5" stroke-linecap="round"/>
+<path d="M758 253 C810 252 834 248 859 235 C887 220 915 177 945 144 C973 115 991 117 1013 152 C1041 202 1066 247 1112 253" fill="none" stroke="url(#curveB)" stroke-width="5" stroke-linecap="round"/>
+<circle cx="897" cy="111" r="6" fill="#8DF3D2"/><circle cx="984" cy="130" r="6" fill="#F9C78A"/>
+<text x="762" y="283" fill="#AACBD3" font-family="Arial,Helvetica,sans-serif" font-size="12">Age categories</text>
+<text x="1110" y="283" fill="#A4C3CB" font-family="Arial,Helvetica,sans-serif" font-size="11" text-anchor="end">Conceptual illustration</text>
+</svg>
