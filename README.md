@@ -50,9 +50,3 @@ Simulation work investigates calibration, numerical accuracy, spatial confoundin
 The project is implemented in **R**, with Bayesian computational methods including **Integrated Nested Laplace Approximation (INLA)**.
 
 The planned reproducibility materials include model specifications, prior definitions, simulation scripts, tests, and code for the empirical application. Installation instructions and documented user-facing examples will be added after the package interface and release checks are finalised.
-
-## Validation status
-
-The software is undergoing numerical accuracy, prior sensitivity, and reproducibility assessment. Passing regression checks alone should not be interpreted as establishing full inferential accuracy.
-
-
