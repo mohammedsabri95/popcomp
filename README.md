@@ -4,10 +4,9 @@
 
 Bayesian count models and distributional contrasts for population-referenced compositions.
 
-**Version 0.1.0 is prepared for authorised private repository storage.**
-The repository is <https://github.com/mohammedsabri95/popcomp>; access requires permission.
-Public publication is not authorised by this upload. Local audit reports, application data,
-Stan archives and numerical investigation logs are excluded from this package.
+**Version 0.1.0** is available from the [popcomp GitHub repository](https://github.com/mohammedsabri95/popcomp).
+The repository contains package source and simulated examples; application data, Stan archives
+and internal validation reports are not included.
 
 ## Overview
 
@@ -58,12 +57,8 @@ specified below. These illustrations do not establish causal effects or numerica
 
 ## Installation
 
-The commands below describe installation in a **new, suitable R library**. They were not run to
-upgrade the validation environment. Local source installation and package checks are performed before release.
-Installation from this private repository requires an authorised GitHub account and locally
-configured authentication. Do not put credentials in scripts or commit them to the repository.
-The validation described here uses local source installation; it does not claim a successful
-remote GitHub installation.
+Install into a **new, suitable R library**. Validation used local source installation; the
+GitHub installation command below has not been independently checked.
 
 ```r
 # CRAN dependency and optional GitHub installer (stats ships with R).
@@ -75,7 +70,7 @@ install.packages("INLA", repos = c(
   INLA = "https://inla.r-inla-download.org/R/stable"
 ))
 
-# With authorised access to the private repository:
+# Install popcomp from GitHub:
 remotes::install_github("mohammedsabri95/popcomp", upgrade = "never")
 ```
 
@@ -157,7 +152,7 @@ each observed unit-period row equally, not each case. Pass `reference` explicitl
 
 Use `citation("popcomp")` for the software citation. The draft citation is Mohammed Sabri (2026),
 *popcomp: Bayesian Count Models for Population-Referenced Compositions*, R package version 0.1.0,
-public release in preparation. A version DOI will be added only after a real archive record exists.
+available from the [GitHub repository](https://github.com/mohammedsabri95/popcomp). A version DOI will be added only after a citable archive record exists.
 
 The associated manuscript, *Bayesian count models and distributional contrasts for population-referenced
 age compositions, with an application to malaria and deforestation in the Brazilian Amazon*,
@@ -181,9 +176,6 @@ Manual `.Rd` help is maintained without roxygen2. No vignette dependencies are r
 
 Mohammed Sabri, King Abdullah University of Science and Technology (KAUST), Saudi Arabia.
 Author and maintainer: Mohammed Sabri; email: mohammed.sabri@kaust.edu.sa. No ORCID is asserted.
-MIT is the selected licence for popcomp v0.1.0. Copyright (c) 2026 Mohammed Sabri.
+popcomp v0.1.0 is distributed under the MIT licence. Copyright (c) 2026 Mohammed Sabri.
 See [LICENSE](LICENSE) for the R package attribution and [LICENSE.md](LICENSE.md) for the complete MIT licence.
 The package declaration is `License: MIT + file LICENSE`.
-Mohammed Sabri has confirmed copyright ownership and authorised storage in this private repository.
-This does not assert KAUST approval for public publication; making the repository public requires
-separate authorisation.
