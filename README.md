@@ -24,7 +24,7 @@ For area $i$, time $t$, and age group $k$, let $C_{itk}$ be the observed case co
 
 $$
 (C_{it1},\ldots,C_{itK})\mid n_{it}
-\sim \operatorname{Multinomial}(n_{it},\boldsymbol p_{it}).
+\sim \mathrm{Multinomial}(n_{it},\boldsymbol{p}_{it}).
 $$
 
 The model distinguishes the underlying case-age distribution $\boldsymbol p_{it}$ from its noisy empirical estimate. A unit-specific population reference $\boldsymbol q_i$ accounts for local age structure; a common reference $\boldsymbol q^*$ supports standardised comparisons across exposure levels.
