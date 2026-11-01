@@ -1,0 +1,2 @@
+export(pc_basis, pc_softmax, pc_M, pc_W1, pc_data, pc_formula, pc_fit, pc_draws, pc_contrasts, pc_regionyear, pc_tolerance)
+importFrom(stats, poly, as.formula, quantile, median, sd, rnorm, setNames)

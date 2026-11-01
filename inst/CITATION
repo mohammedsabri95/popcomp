@@ -1,0 +1,8 @@
+citHeader("To cite popcomp in publications use:")
+bibentry(bibtype = "Manual",
+  title = "popcomp: Bayesian Count Models for Population-Referenced Compositions",
+  author = person("Mohammed", "Sabri"),
+  year = "2026",
+  note = "R package version 0.1.0; public release in preparation",
+  url = "https://github.com/mohammedsabri95/popcomp")
+citFooter("The associated methodology manuscript is in preparation for Environmetrics; no manuscript or software DOI has been issued in this release preparation.")

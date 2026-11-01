@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite popcomp when using this software. Release publication is pending."
+type: software
+title: "popcomp: Bayesian Count Models for Population-Referenced Compositions"
+version: 0.1.0
+authors:
+  - family-names: Sabri
+    given-names: Mohammed
+    affiliation: "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"
+    email: mohammed.sabri@kaust.edu.sa
+repository-code: "https://github.com/mohammedsabri95/popcomp"
+url: "https://github.com/mohammedsabri95/popcomp"
+abstract: "Bayesian count modelling and posterior distributional contrasts for population-referenced compositions, with simulated examples."
+keywords:
+  - Bayesian statistics
+  - compositions
+  - spatial statistics
+  - Wasserstein distance
+# MIT selected; copyright (c) 2026 Mohammed Sabri. Private storage authorised; public publication pending.
+license: MIT
+# No DOI or release date asserted before publication.

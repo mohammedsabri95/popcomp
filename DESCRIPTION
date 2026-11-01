@@ -1,0 +1,25 @@
+Package: popcomp
+Type: Package
+Title: Bayesian Count Models for Population-Referenced Compositions
+Version: 0.1.0
+Authors@R: person("Mohammed", "Sabri", role = c("aut", "cre"),
+    email = "mohammed.sabri@kaust.edu.sa",
+    comment = c(affiliation = "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"))
+Description: Fits Bayesian count models for the composition of cases over ordered
+    categories (for example age groups), relative to a reference distribution
+    (for example the population age structure), through the multinomial-Poisson
+    transformation with diffuse Gaussian row intercepts in R-INLA, approximating
+    conditional multinomial inference. Covariates act on an orthonormal basis over the
+    categories, with spatial (BYM2) and cell-level overdispersion effects.
+    Contrasts in the mean and the Wasserstein-1 distance between predicted
+    compositions are computed as posterior functionals, marginal over the
+    random effects or for a typical unit, and summarised with tolerance
+    (near-null) probabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Imports: stats, Matrix
+Suggests: INLA
+Additional_repositories: https://inla.r-inla-download.org/R/stable
+URL: https://github.com/mohammedsabri95/popcomp
+BugReports: https://github.com/mohammedsabri95/popcomp/issues

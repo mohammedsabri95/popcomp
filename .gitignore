@@ -1,50 +1,33 @@
-# History files
+# Machine-specific validation evidence stays local.
+release-validation/
 .Rhistory
-.Rapp.history
-
-# Session Data files
 .RData
-.RDataTmp
-
-# User-specific files
 .Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
 .Rproj.user/
+*.Rcheck/
+*.tar.gz
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# Local audit, manuscript-review and operator documents: not public package files.
+/DATA_SAFETY_REPORT.md
+/FINAL_DATA_SAFETY_AUDIT.md
+/FINAL_RELEASE_GATE_REPORT.md
+/FINAL_SCIENTIFIC_AUDIT.md
+/FINAL_VALIDATION_REPORT.md
+/IMPLEMENTATION_FIX_REPORT.md
+/LICENSING_AND_OWNERSHIP_REVIEW.md
+/MANUSCRIPT_CORRECTIONS_PROPOSED.md
+/MANUSCRIPT_METHOD_RECOMMENDATIONS.md
+/NUMERICAL_ACCURACY_REPORT.md
+/PACKAGE_AUDIT.md
+/PRIOR_SENSITIVITY_REPORT.md
+/PROPOSED_FIXES.md
+/PUBLIC_RELEASE_MANIFEST.csv
+/RELEASE_NOTES.md
+/RELEASE_STEPS.md
+/REPRODUCIBILITY_INVESTIGATION.md
+/SCIENTIFIC_DIAGNOSTIC_REPORT.md
+/SOFTWARE_AVAILABILITY.md
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-.env
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# Finalised MIT licence files are included in the reviewed manifest.
+/PRIVATE_UPLOAD_REPORT.md
+/PRIVATE_UPLOAD_MANIFEST.csv
