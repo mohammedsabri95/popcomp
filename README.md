@@ -55,20 +55,4 @@ The planned reproducibility materials include model specifications, prior defini
 
 The software is undergoing numerical accuracy, prior sensitivity, and reproducibility assessment. Passing regression checks alone should not be interpreted as establishing full inferential accuracy.
 
-**Please do not cite or depend on this repository as a validated software release yet.**
 
-## Author
-
-**Mohammed Sabri**  
-Postdoctoral Researcher, King Abdullah University of Science and Technology (KAUST)  
-[GitHub profile](https://github.com/mohammedsabri95)
-
-## Citation and license
-
-Citation information will be added with the associated manuscript and software release.
-
-No open-source license has been assigned. All rights reserved.
-
----
-
-*The figures in this README are schematic illustrations and contain no fitted results or patient-level data.*
