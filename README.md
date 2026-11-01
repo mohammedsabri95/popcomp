@@ -157,25 +157,3 @@ available from the [GitHub repository](https://github.com/mohammedsabri95/popcom
 The associated manuscript, *Bayesian count models and distributional contrasts for population-referenced
 age compositions, with an application to malaria and deforestation in the Brazilian Amazon*,
 is in preparation for **Environmetrics**. It is not described as accepted or published.
-
-## Reproducibility
-
-Validation uses Ubuntu 22.04.5 LTS, R 4.5.2 and INLA 25.10.19 in conda environment `malaria_r45`.
-INLA fits and posterior sampling use `num.threads = "1:1"`; BLAS/OpenMP thread counts are set to one
-in the validation commands. `pc_draws()` sets both R's random seed and INLA's sampler seed.
-INLA internal numerical auto-tuning can also vary the fitted approximation despite one-thread
-settings. Disabling it improves repeatability in the diagnostic example but does not by itself
-establish accuracy. Numerical configuration, sampling error and prior sensitivity must be assessed
-separately. Identical seeds do not promise identical results across configurations, platforms or versions.
-
-Raw validation artifacts, application outputs and local review reports are excluded from the
-public repository and R source archive. The package examples generate simulated data only.
-Manual `.Rd` help is maintained without roxygen2. No vignette dependencies are required.
-
-## Authorship and licence
-
-Mohammed Sabri, King Abdullah University of Science and Technology (KAUST), Saudi Arabia.
-Author and maintainer: Mohammed Sabri; email: mohammed.sabri@kaust.edu.sa. No ORCID is asserted.
-popcomp v0.1.0 is distributed under the MIT licence. Copyright (c) 2026 Mohammed Sabri.
-See [LICENSE](LICENSE) for the R package attribution and [LICENSE.md](LICENSE.md) for the complete MIT licence.
-The package declaration is `License: MIT + file LICENSE`.
